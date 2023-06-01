@@ -97,17 +97,17 @@ if __name__ == '__main__':
     use_part_file = False
     while True:
         print("Zvolte si prosím jednu z možností:")
-        print("1 - zjistit počet produktů")
+        print("1 - vypsat počet produktů")
         print("2 - vypsat seznam produktů")
         print("3 - vypsat seznam produktů spolu s náhradními díly")
         print("4 - vypsat celkový počet produktů a  seznam produktů s náhradními díly")
 
         if use_part_file:
-            print("\nc - change from part_export.xml to export_full.xml")
+            print("\nc - změnit XML soubor z part_export.xml na export_full.xml")
         else:
-            print("\nc - change from export_full.xml to part_export.xml")
+            print("\nc - změnit XML soubor z export_full.xml na part_export.xml")
 
-        print("\ne - ukončit program") # cut from server version
+        print("\ne - ukončit program")
         input1 = input()
 
         if input1 == "1":
